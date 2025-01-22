@@ -1,0 +1,105 @@
+.sect-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.sect-inicio{
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(5, 5, 5);
+}
+
+.navigation{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    padding-right: 5em;
+   
+}
+
+.link-crear-cuenta{
+    padding: 1em;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(7 156 156);
+}
+.link-acerca{
+    padding: 1em;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(7 156 156);
+}
+
+.link-acerca:hover{
+    background-color: rgb(3, 95, 95);
+    padding: 0.8em;
+    transition: all 1s;
+}
+
+.link-crear-cuenta:hover{
+    background-color: rgb(3, 95, 95);
+    padding: 0.8em;
+    transition: all 1s;
+}
+
+
+.fig-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+ 
+}
+.fig-container h1{
+    color: rgb(255, 255, 255);
+}
+
+.fig-container img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.container-modal{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.btn-modal{
+    width: 300px;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgb(7 156 156);
+    padding: 1em;
+    border-radius: 15px;
+    color: #fff;
+}
+.container-text{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-text p{
+    width: 60%;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}

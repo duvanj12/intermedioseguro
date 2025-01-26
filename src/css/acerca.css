@@ -1,0 +1,184 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  /*voton inicio*/
+
+  .link-inicio{
+    padding: 1em;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(7 156 156);
+}
+
+  
+  /* Sección de la historia */
+  .about-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #7f8c8d;
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-content video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  /* Sección de valores */
+  .values {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+  }
+  
+  .values h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .value-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .value-item {
+    flex: 1 1 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .value-item h3 {
+    font-size: 1.5rem;
+    color: #2980b9;
+  }
+  
+  .value-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .value-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-content img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  
+  /* Sección de equipo */
+  .team {
+    padding: 40px 0;
+  }
+  
+  .team h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #34495e;
+  }
+  
+  .team-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5rem;
+    color: #2980b9;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.5;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  

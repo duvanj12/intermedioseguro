@@ -17,7 +17,7 @@ const AcercaPage = () => {
 
                
             <nav className="navigation">
-                <Link to="/inicio" className="link-inicio">inicio</Link>
+                <Link to="/" className="link-inicio">inicio</Link>
                 
             </nav>
           
